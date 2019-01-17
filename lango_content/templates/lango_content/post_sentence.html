@@ -1,0 +1,49 @@
+{% extends 'lango_content/base.html' %}
+
+{% block content %}
+    {% load render_table from django_tables2 %}
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.non_field_errors }}
+        <div class="fieldWrapper">
+            {{ form.sentence.errors }}
+            <label for="id_sentence">Sentence:</label>
+            {{ form.sentence }}
+        </div>
+        <div class="fieldWrapper">
+            {{ form.released_date.errors }}
+            <label for="id_released_date">Release Date:</label>
+            {{ form.released_date }}
+        </div>
+        <div class="fieldWrapper">
+            {{ form.source_link.errors }}
+            <label for="id_source_link">Source Link:</label>
+            {{ form.source_link }}
+        </div>
+        <div class="fieldWrapper">
+            {{ form.youtube_link.errors }}
+            <label for="id_youtube_link">Youtube Link:</label>
+            {{ form.youtube_link }}
+        </div>
+        <div class="fieldWrapper">
+            {{ form.difficulty.errors }}
+            {{ form.level.errors }}
+            <label for="id_difficulty_level">Difficulty & Level:</label>
+            {{ form.difficulty }}
+            {{ form.level }}
+        </div>
+        <div class="fieldWrapper">
+            <label for="id_pos_table">Word & POS Table:</label>
+            {% render_table pos_table %}
+        </div>
+        <div class="fieldWrapper">
+            <label for="id_dependency_table">Dependency Table:</label>
+            {% render_table dependency_table %}
+        </div>
+        <div class="fieldWrapper">
+            {{ form.xml.errors }}
+            <label for="id_xml">XML Modeling:</label>
+            {{ form.xml }}
+        </div>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+{% endblock %}

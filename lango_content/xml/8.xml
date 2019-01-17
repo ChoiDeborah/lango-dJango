@@ -1,0 +1,389 @@
+<!-- Imagine there is no heaven. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="천국은 없다라고" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="av" translation="(있다)" annotation="형식주어:there"> there </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="존재하다" annotation="be동사:존재"> is </word>
+      </part>
+      <part role="cpm">
+        <word pos="nn" translation="없는 천국"> no heaven. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- It is easy if you try. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="(가주어)" annotation="형식주어:it"> It </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="쉬운"> easy </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 노력한다면" annotation="부사절:가정">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="노력하다"> try. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- No hell below us -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="없는 지옥"> No hell</word>
+    <chunk pos="aj" translation="우리 아래의" annotation="전치사구:형용사구">
+      <part role="trg">
+        <word pos="pp" translation="아래" annotation="전치사:below"> below </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="우리"> us </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Above us only sky -->
+<sentence>
+  <part role="sbj">
+    <chunk pos="aj" translation="우리 위의" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="위에" annotation="전치사:above"> Above </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="우리"> us </word>
+      </part>
+    </chunk>
+    <word pos="nn" translation="유일한 하늘"> only sky </word>
+  </part>
+</sentence>
+
+
+<!-- Imagine all the people living for today. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="모든 사람들"> all the people </word>
+    <chunk pos="aj" translation="오늘을 살아가고있는" annotation="현재분사구:형용사">
+      <part role="trg">
+        <word pos="aj" translation="살아가고있는" annotation="현재분사:형용사"> living </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="오늘을 위해" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="위해" annotation="전치사"> for </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="오늘"> today. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Imagine there is no countries. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="나라가 없다라고" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="av" translation="(있다)" annotation="형식주어:there"> there </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="존재하다" annotation="be동사:존재"> is </word>
+      </part>
+      <part role="cpm">
+        <word pos="nn" translation="없는 나라들"> no countries </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- It is not hard to do. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="(가주어)" annotation="형식주어:it"> It </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태가)아니다" annotation="be동사:상태"> is not </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="어려운"> hard </word>
+    <chunk pos="av" translation="해보기에" annotation="to부정사:부사">
+      <part role="trg">
+        <word pos="pp" translation="하기에"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="하다"> do. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Nothing to kill or die for. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="없는 것"> Nothing </word>
+    <chunk pos="aj" translation="죽이거나 또는 죽기 위한" annotation="to부정사:형용사">
+      <part role="trg">
+        <word pos="pp" translation="위한"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="죽이다"> kill </word>
+        <word pos="cj" translation="또는"> or </word>
+        <word pos="vb" translation="(무엇을)위해 죽다"> die for. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And no religion, too. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="없는 종교"> no religion, </word>
+  </part>
+  <part role="adj">
+    <word pos="av" translation="또한"> too.</word>
+  </part>
+</sentence>
+
+
+<!-- Imagine all the people living life in peace. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="모든 사람들"> all the people </word>
+    <chunk pos="aj" translation="평화롭게 삶을 살아가고있는" annotation="현재분사구:형용사">
+      <part role="trg">
+        <word pos="aj" translation="살아가고있는" annotation="현재분사:형용사"> living </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="인생을"> life </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="평화롭게" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="평화"> peace. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="cpm">
+  </part>
+  <part role="adj">
+  </part>
+</sentence>
+
+
+<!-- You may say I am a dreamer. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="아마도 말할 것이다"> may say </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="내가 몽상가라고" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="나는"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> am </word>
+      </part>
+      <part role="cpm">
+        <word pos="nn" translation="몽상가"> a dreamer. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- But I am not the only one. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> But </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇이)아니다" annotation="be동사:설명"> am not </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="혼자"> the only one. </word>
+  </part>
+</sentence>
+
+
+<!-- I hope someday you will join us. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="언젠가는 희망한다"> hope someday </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="당신이 우리와 함께 할 것이다" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="참여할 것이다"> will join </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="우리에게"> us. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And the world will be as one. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="세상은"> the world </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태가)될 것이다" annotation="be동사:상태"> will be </word>
+  </part>
+  <part role="cpm">
+    <chunk pos="aj" translation="하나인" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="로서" annotation="전치사:as:동등"> as </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="하나"> one. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Imagine no possessions. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="없는 소유"> no possessions. </word>
+  </part>
+</sentence>
+
+
+<!-- I wonder if you can. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="궁금하다"> wonder </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="당신이 할 수 있는지 아닌지" annotation="명사절:여부">
+      <part role="trg">
+        <word pos="cj" translation="인지 아닌지" annotation="접속사:명사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="md" translation="할 수 있다"> can. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- No need for greed or hunger. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="없는 필요"> No need </word>
+    <chunk pos="aj" translation="욕심 또는 굶주림을 위한" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="위한" annotation="전치사:for"> for </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="욕심"> greed </word>
+        <word pos="cj" translation="또는"> or </word>
+        <word pos="nn" translation="굶주림"> hunger. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- A brotherhood of man. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="형제애"> A brotherhood </word>
+    <chunk pos="aj" translation="인류의">
+      <part role="trg">
+        <word pos="pp" translation="의"> of </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="인간"> man. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Imagine all the people sharing all the world. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="상상해보세요"> Imagine </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="모든 사람들"> all the people </word>
+    <chunk pos="aj" translation="모든 세상을 나누고있는" annotation="현재분사구:형용사">
+      <part role="trg">
+        <word pos="aj" translation="나누고있는" annotation="현재분사:형용사"> sharing </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 세상을"> all the world. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>

@@ -1,0 +1,746 @@
+<!-- You think you own whatever land you land on. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="생각하다"> think </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="당신이 밟은 어떤 땅이든 당신이 소유하고 있다고" annotation="명사절:사실">
+      <part role="sbj">
+        <word pos="nn" translation="당신은"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="소유하다"> own </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="당신이 밟은 어떤 땅이든" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="nn" translation="어떤 땅이든" annotation="접속사:복합:whatever"> whatever land </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="당신"> you </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="밟다"> land on. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- The Earth is just a dead thing you can claim. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="지구는"> The Earth </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="단지 죽어있는 것"> just a dead thing </word>
+    <chunk pos="aj" translation="당신이 차지할 수 있는" annotation="형용사절">
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="권리를 주장할 수 있다"> can claim. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- But I know every rock and tree and creature Has a life, has a spirit, has a name. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> But </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="알고있다"> know </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="모든 바위, 나무, 생물들이 생명이 있고, 영혼이 있고, 이름을 가지고 있다고" annotation="명사절:사실">
+      <part role="sbj">
+        <word pos="nn" translation="모든 바위"> every rock </word>
+        <word pos="cj" translation="그리고"> and </word>
+        <word pos="nn" translation="나무"> tree </word>
+        <word pos="cj" translation="그리고"> and </word>
+        <word pos="nn" translation="생물들"> creature </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="가지고 있다"> has </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="생명"> a life </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="가지고 있다"> has </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="영혼"> a spirit </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="가지고 있다"> has </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="이름"> a name. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- You think the only people who are people are the people who look and think like you. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="생각하다"> think </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="사람다운 유일한 사람은 당신처럼 생기고 생각하는 사람들이라고" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="유일한 사람"> the only people </word>
+        <chunk pos="aj" translation="사람으로 존재하고 있는" annotation="형용사절">
+          <part role="trg">
+            <word pos="nn" translation="누구" annotation="접속사:형용사절:who"> who </word>
+          </part>
+          <part role="obj">
+            <word pos="be" translation="존재하다" annotation="be동사:존재"> are </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="사람"> people </word>
+          </part>
+        </chunk>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> are </word>
+      </part>
+      <part role="cpm">
+        <word pos="nn" translation="그 사람들"> the people </word>
+        <chunk pos="aj" translation="당신처럼 생기고 당신처럼 생각하는" annotation="형용사절">
+          <part role="trg">
+            <word pos="nn" translation="누구" annotation="접속사:형용사절:who"> who </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="생기다"> look </word>
+            <word pos="cj" translation="그리고"> and </word>
+            <word pos="vb" translation="생각하다"> think </word>
+          </part>
+          <part role="adj">
+            <chunk pos="av" translation="당신처럼" annotation="전치사구:부사">
+              <part role="trg">
+                <word pos="pp" translation="처럼" annotation="전치사:like:대상"> like </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="당신"> you. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- But if you walk the footsteps of a stranger, You will learn things you never knew you never knew. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> But </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 낯선이의 발자국을 걸어본다면" annotation="부사절:가정">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="걷다"> walk </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="발자국"> the footsteps </word>
+        <chunk pos="aj" translation="낯선이의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="낯선이"> a stranger, </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="배울 것이다"> will learn </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="것들"> things </word>
+    <chunk pos="aj" translation="당신이 전혀 몰랐던" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="당신"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="전혀 몰랐다"> never knew. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Have you ever heard the wolf cry to the blue corn moon, -->
+<sentence>
+  <part role="prd">
+    <word pos="md" translation="(해봤는가?)"> Have </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="들어보았다"> ever heard </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="늑대 울음"> the wolf cry </word>
+    <chunk pos="aj" translation="푸른 보름달을 향한" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="향한" annotation="전치사:to:대상"> to </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="푸른 보름달"> the blue corn moon, </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Or asked the grinning bobcat why he grinned? -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="혹은"> Or </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="물어보았다"> asked </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="싱긋 웃는 살쾡이에게"> the grinning bobcat </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="왜 싱긋 웃는지" annotation="명사절">
+      <part role="trg">
+        <word pos="cj" translation="왜" annotation="접속사:명사절:why"> why </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="그가"> he </word>
+      </part>
+      <part role="obj">
+        <word pos="vb" translation="싱긋 웃었다"> grinnned? </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Can you sing with all the voices of the mountains? -->
+<sentence>
+  <part role="prd">
+    <word pos="md" translation="할 수 있는가"> Can </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신이"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="노래하다"> sing </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="모든 산울림과 함께" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with:대상"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 울림"> all the voices </word>
+        <chunk pos="aj" translation="산의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="산"> the mountains? </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Can you paint with all the colors of the wind? -->
+<sentence>
+  <part role="prd">
+    <word pos="md" translation="할 수 있는가?"> Can </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신이"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="그리다"> paint </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="바람의 모든 색으로" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with:수단"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 색깔"> all the colors </word>
+        <chunk pos="aj" translation="바람의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="바람"> the wind? </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Come run the hidden pine trails of the forest. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="이리와서"> Come </word>
+    <word pos="vb" translation="달려보라"> run </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="숨겨진 소나무 길을"> the hidden pine trails </word>
+    <chunk pos="aj" translation="숲의" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="숲"> the forest. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Come taste the sun sweet berries of the Earth. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="이리와서"> Come </word>
+    <word pos="vb" translation="맛보라"> taste </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="태양빛 달콤한 딸기를"> the sun sweet berries </word>
+    <chunk pos="aj" translation="대지의" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="대지"> the Earth. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Come roll in all the riches all around you. -->
+<sentence>
+  <part role="sbj">
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="이리와서"> Come </word>
+    <word pos="vb" translation="뒹굴어보라"> roll </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신 주위의 모든 풍요 속에서" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="안에" annotation="전치사:in:대상"> in </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 풍요"> all the riches </word>
+        <chunk pos="aj" translation="당신 모든 주의의" annotation="전치사구:형용사">
+          <part role="adj">
+            <word pos="av" translation="모든"> all </word>
+          </part>
+          <part role="trg">
+            <word pos="pp" translation="주위의" annotation="전치사:around"> around </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신"> you </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And for once, never wonder what they are worth. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="adj">
+    <word pos="av" translation="한 번쯤" annotation="관용어"> for once </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="의심하지 말라"> never wonder </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="그것들이 얼마나 소중한지" annotation="명사절">
+      <part role="trg">
+        <word pos="nn" translation="무엇" annotation="접속사:명사절:what"> what </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="그것들이"> they </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다"> are </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="가치있는"> worth. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- The rainstorm and the river are my brothers. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="폭풍우"> The rainstorm </word>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="nn" translation="강"> the river </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> are </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="내 형제들"> my brothers. </word>
+  </part>
+</sentence>
+
+
+<!-- The heron and the otter are my friends. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="왜가리"> The heron </word>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="nn" translation="수달"> the otter </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> are </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="내 친구들"> my friends. </word>
+  </part>
+</sentence>
+
+
+<!-- And we are all connected to each other in a circle, in a hoop that never ends. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> we </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="모두 연결된" annotation="과거분사:형용사"> all connected </word>
+    <chunk pos="av" translation="서로를 향해" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="향해" annotation="전치사:to:대상"> to </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="서로"> each other </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="원 안에서" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="원"> a circle </word>
+      </part>
+    </chunk>
+    <chunk pos="av" translation="끝없는 테두리 안에서" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="테두리"> a hoop </word>
+      </part>
+    </chunk>
+    <chunk pos="aj" translation="절대 끝나지 않는" annotation="형용사절">
+      <part role="trg">
+        <word pos="cj" translation="것" annotation="접속사:형용사절:that"> that </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="절대 끝나지 않는다"> never ends. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- How high does the sycamore grow? -->
+<sentence>
+  <part role="adj">
+    <word pos="av" translation="얼마나 높이"> How high </word>
+  </part>
+  <part role="prd">
+    <word pos="md" translation="(조동사)"> does </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="단풍나무가"> the sycamore </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="자라다"> grow? </word>
+  </part>
+</sentence>
+
+
+<!-- If you cut it down, then you will never know. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 그것을 베어버린다면" annotation="부사절:가정">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="자르다"> cut </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="그것을"> it </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="아래로"> down, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="그러면"> then </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="결코 모를 것이다"> will never know. </word>
+  </part>
+</sentence>
+
+
+<!-- And you will never hear the wolf cry to the blue corn moon for whether we are white or copper-skinned. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="결코 듣지 못할 것이다 "> will never hear </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="늑대 울음을"> the wolf cry </word>
+    <chunk pos="aj" translation="푸른 보름달을 향한" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="향한" annotation="전치사:to:대상"> to </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="푸른 보름달"> the blue corn moon</word>
+      </part>
+    </chunk>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="우리가 백인이든 구릿빛이든" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="대해" annotation="전치사:for:이유"> for </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="우리가 백인이든 구릿빛이든" annotation="명사절:여부">
+          <part role="trg">
+            <word pos="cj" translation="이든 아니든" annotation="접속사:명사절:whether"> whether </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="우리가"> we </word>
+          </part>
+          <part role="prd">
+            <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+          </part>
+          <part role="cpm">
+            <word pos="aj" translation="하얀"> white </word>
+            <word pos="cj" translation="또는"> or </word>
+            <word pos="aj" translation="구릿빛의"> copper-skinned. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- We need to sing with all the voices of the mountains. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> We </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="필요하다"> need </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="모든 산울림과 함께 노래부르는 것이" annotation="to부정사:명사">
+      <part role="trg">
+        <word pos="pp" translation="것"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="노래부르다"> sing </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="모든 산울림과 함께" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="모든 울림"> all the voices </word>
+            <chunk pos="aj" translation="산의" annotation="전치사구:형용사">
+              <part role="trg">
+                <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="산"> the mountains. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- We need to paint with all the colors of the wind. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> We </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="필요하다"> need </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="바람의 모든 색으로 그리는 것이" annotation="to부정사:명사">
+      <part role="trg">
+        <word pos="pp" translation="것"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="그리다"> paint </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="바람의 모든 색으로" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="모든 색"> all the colors </word>
+            <chunk pos="aj" translation="바람의" annotation="전치사구:형용사">
+              <part role="trg">
+                <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="바람"> the wind. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- You can own the Earth and still all you will own is Earth, -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="소유할 수 있다"> can own </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="대지를"> the Earth </word>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="그리고 더욱이"> and still </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="모든 것은" annotation="대명사:부정:all"> all </word>
+    <chunk pos="aj" translation="당신이 가질 수 있는" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="가질 수 있다"> will own </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="대지"> Earth </word>
+  </part>
+</sentence>
+
+
+<!-- Until you can paint with all the colors of the wind. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="할 때까지" annotation="접속사:부사절:until"> Until </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신이"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="그릴 수 있다"> can paint </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="바람의 모든 색으로" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 색"> all the colors </word>
+        <chunk pos="aj" translation="바람의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="바람"> the wind. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>

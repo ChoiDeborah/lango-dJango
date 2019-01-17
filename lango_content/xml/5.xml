@@ -1,0 +1,440 @@
+<!-- 01. You can't explain it/ 2 to a six year old/, You don't understand it yourself. -->
+<sentence>
+	<part role="adj">
+		<chunk pos="av" translation="만약 너가 여섯살에게 그것을 설명할 수 없다면" annotation="부사절:가정">
+			<part role="trg">
+				<word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="너"> you </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="설명할 수 없다"> can't explain </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="그것"> it </word>
+			</part>
+			<part role="adj">
+				<chunk pos="av" translation="여섯살에게" annotation="전치사구:부사:대상">
+					<part role="trg">
+						<word pos="pp" translation="에게" annotation="전치사:to:대상"> to </word>
+					</part>
+					<part role="obj">
+						<word pos="nn" translation="여섯살"> a six year old, </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+	<part role="sbj">
+		<word pos="nn" translation="너는"> You </word>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="이해하지 못하는 것이다"> don't understand </word>
+	</part>
+	<part role="obj">
+			<word pos="nn" translation="그것을"> it </word>
+	</part>
+	<part role="adj">
+			<word pos="av" translation="너 스스로" annotation="대명사:재귀:강조"> yourself. </word>
+	</part>
+</sentence>
+
+
+<!-- 02. Anyone who has never made a mistake has never tried anything new. -->
+<sentence>
+  <part role="sbj">
+		<word pos="nn" translation="누구나"> Anyone </word>
+		<chunk pos="aj" translation="실수를 해보지 못한 사람은" annotation="형용사절">
+			<part role="trg">
+				<word pos="nn" translation="누구나" annotation="접속사:형용사절:who"> who </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="만들어 보지 못했다" annotation="시제:현재완료"> has never made </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="실수를"> a mistake </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="시도해 보지 않은 것이다" annotation="시제:현재완료"> has never tried </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="새로운 어떤 것도"> anything new </word>
+	</part>
+</sentence>
+
+
+<!-- 03. Education is what remains after one has forgotten what one has learned in school. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="교육은"> Education </word>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+	</part>
+	<part role="cpm">
+		<chunk pos="nn" translation="남아있는 어떤것" annotation="명사절">
+			<part role="trg">
+				<word pos="nn" translation="어떤것이" annotation="접속사:명사절:what"> what </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="남아있다"> remains </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="누군가가 학교에서 배웠던 무엇인가를 잊어버리고 난 후에" annotation="부사절:시간">
+			<part role="trg">
+				<word pos="pp" translation="이후" annotation="접속사:부사절:after"> after </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="누군가가" annotation="대명사:인칭"> one </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="잊어버리다" annotation="시제:현재완료"> has forgotten </word>
+			</part>
+			<part role="obj">
+				<chunk pos="nn" translation="누군가가 학교에서 무엇인가를 배웠다" annotation="명사절">
+					<part role="trg">
+						<word pos="nn" translation="무엇인가를" annotation="접속사:명사절:what"> what </word>
+					</part>
+					<part role="sbj">
+						<word pos="nn" translation="누군가가" annotation="대명사:인칭"> one </word>
+					</part>
+					<part role="prd">
+						<word pos="vb" translation="배웠다" annotation="시제:현재완료"> has learned </word>
+					</part>
+					<part role="adj">
+						<chunk pos="av" translation="학교에서" annotation="전치사구:부사:장소">
+							<part role="trg">
+								<word pos="pp" translation="에서" annotation="전치사:in:장소"> in </word>
+							</part>
+							<part role="obj">
+								<word pos="nn" translation="학교"> school </word>
+							</part>
+						</chunk>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- 04. The true sign of intelligence is not knowledge but imagination. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="진정한 신호"> The true sign </word>
+		<chunk pos="aj" translation="지성의" annotation="전치사구:형용사">
+			<part role="trg">
+				<word pos="pp" translation="의" annotation="전치사:of"> of </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="지성"> intelligence </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="아니다" annotation="be동사:설명"> is not </word>
+	</part>
+	<part role="cpm">
+		<word pos="nn" translation="지식"> knowledge </word>
+		<word pos="cj" translation="하지만"> but </word>
+		<word pos="nn" translation="상상력"> imagination. </word>
+	</part>
+</sentence>
+
+
+<!-- 05. We cannot solve our problems with the same thinking we used when we created them. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="우리는"> We </word>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="해결하지 못한다"> cannot solve </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="우리의 문제들을"> our problems </word>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="우리가 그 문제들을 만들었을 때 우리가 사용했었던 생각을 가지고는" annotation="전치사구:부사:수단">
+			<part role="trg">
+				<word pos="pp" translation="함께" annotation="전치사:with:수단"> with </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="같은 생각"> the same thinking </word>
+				<chunk pos="aj" translation="우리가 문제들을 만들었을 때 우리가 사용했었던" annotation="형용사절:접속사생략">
+					<part role="sbj">
+						<word pos="nn" translation="우리가"> we </word>
+					</part>
+					<part role="prd">
+						<word pos="nn" translation="사용했던"> used </word>
+					</part>
+					<part role="adj">
+						<chunk pos="av" translation="우리가 문제를 만들었을 때" annotation="부사절:시간">
+							<part role="trg">
+								<word pos="cj" translation="때" annotation="접속사:부사절:when"> when </word>
+							</part>
+							<part role="sbj">
+								<word pos="nn" translation="우리가"> we </word>
+							</part>
+							<part role="prd">
+								<word pos="vb" translation="만들었다"> created </word>
+							</part>
+							<part role="obj">
+								<word pos="nn" translation="문제들을"> them. </word>
+							</part>
+						</chunk>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- 06. You never fail until you stop trying. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="너는"> You </word>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="실패하지 않는다"> never fail </word>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="너가 시도하는 것을 멈출 때까지" annotation="부사절:시간">
+			<part role="trg">
+				<word pos="cj" translation="까지" annotation="접속사:부사절:until"> until </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="너가"> you </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="멈추다"> stop </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="시도하는 것을" annotation="동명사"> trying. </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- 07. Gravitation is not responsible for people falling in love. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="중력은"> Gravitation </word>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(상태가)아니다" annotation="be동사:상태"> is not </word>
+	</part>
+	<part role="sbj">
+		<word pos="nn" translation="책임이 있는"> responsible </word>
+		<chunk pos="av" translation="사랑에 빠지는 사람들에 대해" annotation="전치사구:부사:대상">
+			<part role="trg">
+				<word pos="pp" translation="대해" annotation="전치사:for:주제"> for </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="사람들"> people </word>
+				<chunk pos="aj" translation="사랑에 빠지는" annotation="현재분사구:형용사">
+					<part role="trg">
+						<word pos="aj" translation="빠지는" annotation="현재분사:형용사"> falling </word>
+					</part>
+					<part role="adj">
+						<chunk pos="av" translation="사랑에" annotation="전치사구:부사:대상">
+							<part role="trg">
+								<word pos="pp" translation="에" annotation="전치사:in:대상"> in </word>
+							</part>
+							<part role="obj">
+								<word pos="nn" translation="사랑"> love. </word>
+							</part>
+						</chunk>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- 08. The difference between stupidity and genius is that genius has its limits. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="차이점은"> The difference </word>
+		<chunk pos="aj" translation="멍청함과 천재성 사이의" annotation="전치사구:형용사">
+				<part role="trg">
+					<word pos="pp" translation="사이의" annotation="전치사:between"> between </word>
+				</part>
+				<part role="obj">
+					<word pos="nn" translation="멍청함"> stupidity </word>
+					<word pos="cj" translation="과"> and </word>
+					<word pos="nn" translation="천재성"> genius </word>
+				</part>
+		</chunk>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+	</part>
+	<part role="cpm">
+		<chunk pos="nn" translation="천재성은 그 한계를 가지고 있다는 것" annotation="명사절:사실">
+				<part role="trg">
+					<word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
+				</part>
+				<part role="sbj">
+					<word pos="nn" translation="천재성은"> genius </word>
+				</part>
+				<part role="prd">
+					<word pos="vb" translation="가지다"> has </word>
+				</part>
+				<part role="obj">
+					<word pos="nn" translation="그 한계를"> its limits. </word>
+				</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- 09. If you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid. -->
+<sentence>
+	<part role="adj">
+		<chunk pos="av" translation="만약 너가 물고기를 판단한다면 나무를 오르는 능력에 의해서," annotation="부사절:가정">
+			<part role="trg">
+				<word pos="cj" translation="만약" annotation="접속사:부사절:if"> If </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="너가"> you </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="판단하다"> judge </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="물고기를"> a fish </word>
+			</part>
+			<part role="adj">
+				<chunk pos="av" translation="나무를 오르는 능력에 의해서" annotation="전치사구:부사:수단">
+					<part role="trg">
+						<word pos="pp" translation="의해서" annotation="전치사:by:수단"> by </word>
+					</part>
+					<part role="obj">
+						<word pos="nn" translation="그것의 능력"> its ability </word>
+						<chunk pos="aj" translation="나무를 오르기 위한" annotation="to부정사구:형용사">
+							<part role="trg">
+								<word pos="pp" translation="위한"> to </word>
+							</part>
+							<part role="prd">
+								<word pos="vb" translation="오르다"> climb </word>
+							</part>
+							<part role="obj">
+								<word pos="nn" translation="나무를"> a tree </word>
+							</part>
+						</chunk>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+	<part role="sbj">
+		<word pos="nn" translation="물고기는"> it </word>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="살아갈 것이다"> will live </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="물고기의 평생의 삶을"> its whole life </word>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="물고기는 어리석다는 사실을 믿으면서" annotation="현재분사구:부사:상황">
+			<part role="trg">
+				<word pos="cj" translation="믿으면서" annotation="현재분사:부사"> believing </word>
+			</part>
+			<part role="obj">
+				<chunk pos="nn" translation="물고기는 어리석다는 사실" annotation="명사절:사실">
+					<part role="trg">
+						<word pos="cj" translation="사실" annotation="접속사:명사절:that"> that </word>
+					</part>
+					<part role="sbj">
+						<word pos="nn" translation="물고기는"> it </word>
+					</part>
+					<part role="prd">
+						<word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
+					</part>
+					<part role="cpm">
+						<word pos="aj" translation="어리석은"> stupid. </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- 10. Life is like riding a bicycle. To keep your balance, you must keep moving. -->
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="인생은"> Life </word>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(상태)이다" annotation="be동사:설명"> is </word>
+	</part>
+	<part role="cpm">
+		<chunk pos="aj" translation="자전거를 타는 것 같은" annotation="전치사구:형용사">
+			<part role="trg">
+				<word pos="pp" translation="같은" annotation="전치사:like"> like </word>
+			</part>
+			<part role="obj">
+				<chunk pos="nn" translation="자전거를 타는 것" annotation="동명사구">
+					<part role="trg">
+						<word pos="cj" translation="타는 것" annotation="동명사"> riding </word>
+					</part>
+					<part role="obj">
+						<word pos="nn" translation="자전거를"> a bicycle. </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+	<part role="adj">
+		<chunk pos="av" translation="너의 중심을 유지하기 위해서" annotation="to부정사구:명사">
+			<part role="trg">
+				<word pos="pp" translation="위해서"> To </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="유지하다"> keep </word>
+			</part>
+			<part role="obj">
+				<word pos="nn" translation="너의 중심을"> your balance </word>
+			</part>
+		</chunk>
+	</part>
+	<part role="sbj">
+		<word pos="nn" translation="너는"> you </word>
+	</part>
+	<part role="prd">
+		<word pos="vb" translation="반드시 계속해야한다"> must keep </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="움직이는 것을" annotation="동명사"> moving. </word>
+	</part>
+</sentence>
+
+
+<!-- 11. Never memorize something that you can look up. -->
+<sentence>
+	<part role="prd">
+		<word pos="vb" translation="외우지 말라"> Never memorize </word>
+	</part>
+	<part role="obj">
+		<word pos="nn" translation="무언가는" annotation="대명사:사물"> something </word>
+		<chunk pos="aj" translation="너가 찾아볼 수 있는" annotation="형용사절">
+			<part role="trg">
+				<word pos="nn" translation="무언가는" annotation="접속사:형용사절:that"> that </word>
+			</part>
+			<part role="sbj">
+				<word pos="nn" translation="너가 "> you </word>
+			</part>
+			<part role="prd">
+				<word pos="vb" translation="찾아볼 수 있다" annotation="구동사"> can look up. </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>

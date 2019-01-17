@@ -1,0 +1,548 @@
+<!-- There is a hero if you look inside your heart. -->
+<sentence>
+  <part role="sbj">
+    <word pos="av" translation="(있다)" annotation="형식주어:there"> There </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="존재하다" annotation="be동사:존재"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="영웅"> a hero </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 당신의 마음 속을 바라본다면" annotation="부사절">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> You </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="바라보다"> look </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="당신의 마음 안에" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:inside"> inside </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신의 마음"> your heart. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- You don’t have to be afraid of what you are. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)일 필요가 없습니다" annotation="be동사:상태"> don't have to be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="두려운"> afraid </word>
+    <chunk pos="av" translation="너가 어떤 사람인지에 대해" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="대해" annotation="전치사:of"> of </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="너는 어떤 무엇이다" annotation="명사절">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="너는"> you </word>
+          </part>
+          <part role="prd">
+            <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> are. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- There is an answer if you reach in to your soul. -->
+<sentence>
+  <part role="sbj">
+    <word pos="av" translation="(있다)" annotation="형식주어:there"> There </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="존재하다" annotation="be동사:존재"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="응답"> an answer </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 당신의 영혼에 닿는다면" annotation="부사절">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> You </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="닿다" annotation="구동사"> reach in </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="당신의 영혼에" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="에" annotation="전치사:to:대상"> to </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신의 영혼"> your soul. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- The sorrow that you know will melt away. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="슬픔"> the sorrow </word>
+    <chunk pos="aj" translation="당신이 알고 있는" annotation="형용사절">
+      <part role="trg">
+        <word pos="cj" translation="슬픔" annotation="접속사:형용사절:that"> that </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="알다"> know </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="녹아내릴 것입니다." annotation="구동사"> will melt away.</word>
+  </part>
+</sentence>
+
+
+<!-- And then a hero comes along with the strength to carry on. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고서는"> And then </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="영웅이"> a hero </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="나타난다" annotation="구동사"> comes along </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="살아나기기 위한 힘과 함께" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="힘"> the strength </word>
+        <chunk pos="aj" translation="살아나가기 위한" annotation="to부정사:형용사">
+          <part role="trg">
+            <word pos="pp" translation="위한"> to </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="살아나가다"> carry on </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And you cast your fear aside. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="던져버리다"> cast </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="당신의 두려움을"> your fear </word>
+  </part>
+  <part role="adj">
+    <word pos="av" translation="한쪽으로"> aside. </word>
+  </part>
+</sentence>
+
+
+<!-- And you know you can survive. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="알고있다"> know </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="당신이 살아남을 수 있다는 것" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="살아남을 수 있다"> can survive. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- So when you feel like hope is gone, look inside you and be strong. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그래서"> So </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신이 희망이 사라진 것처럼 느낄 때" annotation="부사절:시간">
+      <part role="trg">
+        <word pos="cj" translation="때" annotation="접속사:부사절:when"> when </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="느끼다"> feel </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="희망이 사라진 것처럼" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="처럼" annotation="전치사:like"> like </word>
+          </part>
+          <part role="obj">
+            <chunk pos="nn" translation="희망이 사라졌다는 것" annotation="명사절:접속사생략">
+              <part role="sbj">
+                <word pos="nn" translation="희망이"> hope </word>
+              </part>
+              <part role="prd">
+                <word pos="be" translation="(상태)이다)" annotation="be동사:상태"> is </word>
+              </part>
+              <part role="cpm">
+                <word pos="aj" translation="사라진" annotation="과거분사:형용사"> gone, </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="바라보아라"> look </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신의 안을" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="안에" annotation="전치사:inside"> inside </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="당신"> you </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> and </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이어라" annotation="be동사:상태"> be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="강한"> strong. </word>
+  </part>
+</sentence>
+
+
+<!-- And you finally see the truth that a hero lies in you. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> you  </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="결국 보다"> finally see </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="진실"> the truth </word>
+    <chunk pos="nn" translation="영웅이 당신 안에 있다라는" annotation="명사절:동격">
+      <part role="trg">
+        <word pos="cj" translation="라는" annotation="접속사:명사절:that"> that </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="영웅"> a hero </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="누워있다"> lies </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="당신 안에" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신"> you. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- It is a long road. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="(가주어)"> It </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="먼 길"> a long road. </word>
+  </part>
+</sentence>
+
+
+<!-- When you face the world alone, no one reaches out of hand for you to hold. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="당신이 세상을 혼자 마주할 때" annotation="부사절:시간">
+      <part role="trg">
+        <word pos="cj" translation="때" annotation="접속사:부사절:when"> When </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="마주하다"> face </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="세상을"> the world </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="혼자"> alone </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="그 누구도"> no one </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="내밀다"> reaches </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신을 위해 잡기 위한 손을 밖으로" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="밖으로" annotation="전치사:out of"> out of </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="손을"> hand </word>
+        <chunk pos="aj" translation="당신을 위해 잡기 위한" annotation="to부정사:형용사">
+          <part role="adj">
+            <chunk pos="av" translation="당신을 위해" annotation="의미상주어">
+              <part role="trg">
+                <word pos="pp" translation="위해" annotation="전치사:for"> for </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="당신"> you </word>
+              </part>
+            </chunk>
+          </part>
+          <part role="trg">
+            <word pos="pp" translation="위해"> to </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="잡다"> hold. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- You can find love if you search within yourself. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="찾을 수 있다"> can find </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="사랑"> love </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="만약 당신이 당신 자신 속을 찾아본다면" annotation="부사절:가정">
+      <part role="trg">
+        <word pos="cj" translation="만약" annotation="접속사:부사절:if"> if </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="찾다"> search </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="당신 자신 속을" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="속" annotation="전치사:within"> within </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신 자신" annotation="대명사:재귀"> yourself. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And the emptiness you felt will disappear. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="공허함"> the emptiness </word>
+    <chunk pos="aj" translation="당신이 느꼈던" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="느꼈다"> felt </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="없어질 것이다."> will disappear. </word>
+  </part>
+</sentence>
+
+
+
+<!-- Lord knows dreams are hard to follow. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="하느님은"> Lord </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="알고있다"> knows </word>
+  </part>
+  <part role="obj">
+    <chunk pos="nn" translation="꿈은 추구하기에는 어렵다는 것" annotation="명사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="꿈은"> dreams </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="어려운"> hard </word>
+        <chunk pos="av" translation="추구하기에는" annotation="to부정사:부사:이유">
+          <part role="trg">
+            <word pos="pp" translation="기에는"> to </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="추구하다"> follow. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- But don’t let anyone tear them away. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> But </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="허락하지 말라"> don't let </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="누구도"> anyone </word>
+  </part>
+  <part role="cpm">
+    <chunk pos="nn" translation="그것들을 찢어 버리다" annotation="원형부정사">
+      <part role="trg">
+        <word pos="vb" translation="찢다"> tear </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="그것들을"> them </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="멀리"> away </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="adj">
+  </part>
+</sentence>
+
+
+<!-- Just hold on. -->
+<sentence>
+  <part role="adj">
+    <word pos="av" translation="단지"> Just </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="버텨라" annotation="구동사"> hold on. </word>
+  </part>
+</sentence>
+
+
+<!-- There will be tomorrow. -->
+<sentence>
+  <part role="sbj">
+    <word pos="av" translation="(있다)" annotation="형식주어:there"> There </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(존재)있을 것이다" annotation="be동사:존재"> will be </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="내일이"> tomorrow. </word>
+  </part>
+</sentence>
+
+
+<!-- In time, you will find the way. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="장차" annotation="관용구:in time">
+      <part role="trg">
+        <word pos="pp" translation="안에" annotation="전치사:in"> In </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="시간"> time, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신은"> You </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="찾을 것이다"> will find </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="길을"> the way. </word>
+  </part>
+</sentence>

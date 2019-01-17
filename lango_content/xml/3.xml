@@ -1,0 +1,630 @@
+<!-- Isaiah 40:31 Those who hope in the Lord will renew their strength. They will soar on wings like eagles. 여호와를 의지하는 사람은 새 힘을 얻으며, 독수리가 하늘 높이 솟아오르듯 올라갈 수 있다. 그러한 사람은 뛰어도 지치지 않으며, 걸어도 피곤하지 않을 것이다. 오직 여호와를 앙망하는 자는 새 힘을 얻으리니 독수리의 날개치며 올라감 같을 것이요 달음박질하여도 곤비치 아니하겠고 걸어가도 피곤치 아니하리로다. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="사람은" annotation="대명사:인칭:those"> Those </word>
+    <chunk pos="aj" translation="주 안에서 희망하는" annotation="형용사절">
+      <part role="trg">
+        <word pos="cj" translation="누구" annotation="접속사:형용사절:who"> who </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="희망하다"> hope </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="주 안에서" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="주"> the Lord </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="다시 새롭게 할 것이다"> will renew </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="그들의 힘을"> their strength; </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="그들은"> They </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="솟아 오를 것이다"> will soar </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="날개로" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="으로" annotation="전치사:on:도구"> on </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="날개"> wings </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="독수리처럼" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="처럼" annotation="전치사:like"> like </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="독수리"> eagles. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Joshua 1:9 Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.힘을 내고 용기를 가져라. 내가 명령한 것을 기억하여라. 두려워하지 마라. 네가 가는 곳마다 네 하나님 여호와가 너와 함께할 것이다.내가 네게 명령한 것이 아니냐 강하고 담대하라 두려워하지 말며 놀라지 말라 네가 어디로 가든지 네 하나님 여호와가 너와 함께 하느니라 하시니라 -->
+<sentence>
+  <part role="prd">
+    <word pos="be" translation="(상태)이어라" annotation="be동사:상태"> Be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="강한"> strong </word>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="aj" translation="용감한"> courageous; </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이지 말아라" annotation="be동사:상태"> Do not be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="두려운"> afraid;</word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이지 말아라" annotation="be동사:상태"> Do not be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="낙담한" annotation="과거분사:형용사"> discouraged, </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="주님, 당신의 하나님께서 당신과 함께 할 것이기 때문에" annotation="전치사구:부사:이유">
+      <part role="trg">
+        <word pos="aj" translation="때문에" annotation="전치사:for:이유"> for </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="주님"> the Lord </word>
+        <word pos="nn" translation="당신의 하나님" annotation="동격"> your god </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)일 것이다" annotation="be동사:상태"> will be </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="aj" translation="당신과 함께" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="당신"> you </word>
+          </part>
+        </chunk>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="당신이 어느 곳을 가든" annotation="부사절:조건">
+          <part role="trg">
+            <word pos="cj" translation="어느 곳이든" annotation="접속사:부사절:wherever"> wherever </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="당신이"> you </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="가다"> go. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Mark 9:23 Everything is possible for him who believes. 믿는 사람은 무엇이든지 할 수 있다. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="모든 것은"> Everything </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="가능한"> possible </word>
+    <chunk pos="av" translation="믿는 사람에게" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="에게" annotation="전치사:for"> for </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="그"> him </word>
+        <chunk pos="aj" translation="믿는" annotation="형용사절">
+          <part role="trg">
+            <word pos="cj" translation="누구" annotation="접속사:형용사절:who"> who </word>
+          </part>
+          <part role="obj">
+            <word pos="vb" translation="믿다"> believes. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Philippians 4:13 I can do all this through him who gives me strength.내게 능력 주시는 자 안에서 내가 모든 것을 할 수 있느니라 -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="할 수 있다"> can do </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="이 모든 것을"> all this </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="나에게 힘을 주는 사람을 통해" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="통해" annotation="전치사:through"> through </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="그"> him </word>
+        <chunk pos="aj" translation="나에게 힘을 주는" annotation="형용사절">
+          <part role="trg">
+            <word pos="cj" translation="사람" annotation="접속사:형용사절:who"> who </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="주다"> gives </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="나에게"> me </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="힘을"> strength. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- John 3:16For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.하나님이 세상을 이처럼 사랑하사 독생자를 주셨으니 이는 저를 믿는 자마다 멸망치 않고 영생을 얻게 하려 하심이니라. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="하나님이 세상을 너무 사랑해서, 그가 그의 오직 하나뿐인 아들을 주었기 때문에" annotation="전치사구:부사:이유">
+      <part role="trg">
+        <word pos="cj" translation="때문에" annotation="전치사:for:이유"> For </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="하나님"> God </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="너무 사랑했다"> so loved </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="세상을"> the world </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="그래서 그는 그의 오직 하나뿐인 아들을 주었다" annotation="부사절:결과">
+          <part role="trg">
+            <word pos="cj" translation="그래서" annotation="접속사:부사절:that"> that </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="그는"> he </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="주었다"> gave </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="그의 오직 하나뿐인 아들을"> his one and only son, </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <chunk pos="nn" translation="누구든 그를 믿는 사람은" annotation="명사절">
+      <part role="trg">
+        <word pos="cj" translation="누구든" annotation="접속사:명사절:whoever"> Whoever </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="믿는다"> believes </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="그 안에서" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="그"> him </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="멸망하지 않을 것이다."> shall not perish </word>
+    <word pos="cj" translation="다만"> but </word>
+    <word pos="vb" translation="가질 것이다"> have </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="영원한 삶"> eternal life. </word>
+  </part>
+</sentence>
+
+
+<!-- Hebrews 11:1Faith is confidence in what we hope for and assurance about what we do not see.믿음은 우리가 바라는 것들에 대해서 확신하는 것입니다. 또한 보이지는 않지만 그것이 사실임을 아는 것입니다. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="믿음은"> Faith </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="확신"> confidence </word>
+    <chunk pos="aj" translation="우리가 희망하는 무엇에 대한" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="대한" annotation="전치사:in"> in </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="우리가 희망하는 무엇" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="우리가"> we </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="희망하다"> hope for </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="nn" translation="단언"> assurance </word>
+    <chunk pos="aj" translation="우리가 보지 않는 무엇에 대한" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="대한" annotation="전치사:about"> about </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="우리가 보지 않는 무엇" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="우리가"> we </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="보지 않다"> do not see. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Corinthians 10:13No temptation has overtaken you except what is common to mankind.누구나 겪는 시험 이외에 여러분에게 닥칠 시험은 없습니다. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="어떤 유혹도(아니다)"> No temptation </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="사로잡았다"> has overtaken </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="너를"> you </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="인간에게 일반적인 것을 제외하고" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="제외하고" annotation="전치사:except"> except </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="어떤 무엇이 인간에게 일반적이다" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="cj" translation="무엇이" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="prd">
+            <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
+          </part>
+          <part role="cpm">
+            <word pos="aj" translation="일반적인"> common </word>
+            <chunk pos="av" translation="인간에게" annotation="전치사구:부사">
+              <part role="trg">
+                <word pos="pp" translation="에게" annotation="전치사:to:대상"> to </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="인간"> mankind. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- And God is faithful; he will not let you be tempted beyond what you can bear.하나님은 신실한 분이셔서 여러분이 감당할 수 있는 능력 이상의 시험을 당하도록 내버려 두지 않으십니다. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그리고"> And </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="하나님은"> God </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="신실한"> faithful; </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="그는"> he </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="내버려 두지 않을 것이다"> will not let </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="당신이"> you </word>
+  </part>
+  <part role="cpm">
+    <chunk pos="aj" translation="당신이 견뎌낼 수 있는 것을 넘어서는 만큼 시험당하도록" annotation="원형부정사">
+      <part role="trg">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> be </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="유혹당한" annotation="과거분사:형용사"> tempted </word>
+        <chunk pos="av" translation="당신이 견뎌낼 수 있는 것을 넘어서는 만큼" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="넘어서" annotation="전치사:beyond"> beyond </word>
+          </part>
+          <part role="obj">
+            <chunk pos="nn" translation="당신이 견뎌낼 수 있는 무엇" annotation="명사절:사실">
+              <part role="trg">
+                <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+              </part>
+              <part role="sbj">
+                <word pos="nn" translation="당신이"> you </word>
+              </part>
+              <part role="prd">
+                <word pos="vb" translation="견뎌낼 수 있다"> can bear. </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- But when you are tempted, he will also provide a way out so that you can endure it.그리고 여러분이 시험을 당할 때에 시험을 견디고 거기서 빠져 나올 수 있는 길을주십니다. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> But </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신이 시험 당할 때에" annotation="부사절:시간">
+      <part role="trg">
+        <word pos="cj" translation="때" annotation="접속사:부사절:when"> when </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="유혹당한" annotation="과거분사:형용사"> tempted, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="그는"> he </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="또한 제공해 줄 것이다."> will also provide </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="나가는 길을"> a way out </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="그래서 당신이 그것을 견뎌낼 수 있도록" annotation="부사절:결과">
+      <part role="trg">
+        <word pos="cj" translation="그래서" annotation="접속사:부사절:so that"> so that </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="견뎌낼 수 있다"> can endure </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="그것을"> it. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Matthew 4:4Man does not live on bread alone, but on every word that comes from the mouth of God.예수께서 대답하여 이르시되 기록되었으되 사람이 떡으로만 살 것이 아니요 하나님의 입으로부터 나오는 모든 말씀으로 살 것이라 하였느니라 하시니 -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="사람은"> Man </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="살지 않는다"> does not live </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="단지 빵으로만" annotation="전치사구:부사:수단">
+      <part role="trg">
+        <word pos="pp" translation="으로" annotation="전치사:on:수단"> on </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="빵"> bread </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="단지"> alone, </word>
+      </part>
+    </chunk>
+    <word pos="cj" translation="하지만"> but </word>
+    <chunk pos="av" translation="하나님의 입으로부터 나오는 모든 말씀으로" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="으로" annotation="전치사:on:수단"> on </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모든 말씀"> every word  </word>
+        <chunk pos="aj" translation="하나님의 입으로부터 나오는" annotation="형용사절">
+          <part role="trg">
+            <word pos="cj" translation="것" annotation="접속사:형용사절:that"> that </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="오다"> comes </word>
+          </part>
+          <part role="adj">
+            <chunk pos="av" translation="하나님의 입으로부터" annotation="전치사구:부사">
+              <part role="trg">
+                <word pos="pp" translation="부터" annotation="전치사:from"> from </word>
+              </part>
+              <part role="obj">
+                <word pos="nn" translation="입"> the mouth </word>
+                <chunk pos="aj" translation="하나님의" annotation="전치사구:형용사">
+                  <part role="trg">
+                    <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+                  </part>
+                  <part role="obj">
+                    <word pos="nn" translation="하나님"> God. </word>
+                  </part>
+                </chunk>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Psalm 23:4Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.내가 사망의 음침한 골짜기로 다닐지라도 해를 두려워하지 않을 것은 주께서 나와 함께 하심이라 주의 지팡이와 막대기가 나를 안위하시나이다 -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="비록 내가 가장 어두운 골짜기를 지나며 걷더라도" annotation="부사절">
+      <part role="trg">
+        <word pos="cj" translation="비록" annotation="접속사:부사절:even though"> Even though </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="걷다"> walk </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="가장 어두운 골짜기를 지나며" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="통하여" annotation="전치사:though"> through </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="가장 어두운 골짜기"> the darkest valley, </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="나는"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="두려울 것이다"> will fear </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="어떤 해악도(아니다)"> no evil, </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="당신이 나와 함께이기 때문에" annotation="부사절:이유">
+      <part role="trg">
+        <word pos="cj" translation="때문에" annotation="접속사:부사절:for"> for </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="당신이"> you </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="aj" translation="나와 함께" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="나를"> me; </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="당신의 막대기"> your rod </word>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="nn" translation="당신의 지팡이,"> your staff, </word>
+    <word pos="nn" translation="그것들이" annotation="동격"> they </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="편안하게하다"> comfort </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="나를"> me. </word>
+  </part>
+</sentence>
+
+
+<!-- John 13:34A new command I give you: Love one another. As I have loved you, so you must love one another.새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 -->
+<sentence>
+  <part role="obj">
+    <word pos="nn" translation="새로운 계명을 " annotation="도치:목적어"> A new command </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="내가"> I </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="주다"> give </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="너에게"> you; </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="사랑하라"> Love </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="서로를"> one another. </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="내가 너를 사랑한 것 처럼," annotation="부사절">
+      <part role="trg">
+        <word pos="cj" translation="처럼" annotation="접속사:부사절:as"> As </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="사랑했다" annotation="시제:현재완료"> have loved </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="너를"> you, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="그렇게"> so </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="너는"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="반드시 사랑하다"> must love </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="서로를"> one another. </word>
+  </part>
+</sentence>

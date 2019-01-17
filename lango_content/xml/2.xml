@@ -1,0 +1,645 @@
+<!-- 01. Both optimists and pessimists contribute to society; The optimist invents the aeroplane, the pessimist the parachute. -->
+<sentence>
+  <part role="sbj">
+    <word pos="aj" translation="둘 모두"> Both </word>
+    <word pos="nn" translation="낙관주의자"> optimists </word>
+    <word pos="cj" translation="그리고"> and </word>
+    <word pos="nn" translation="비관주의자"> pessimists </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="기여하다"> contribute </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="사회에" annotation="전치사구:부사:대상">
+      <part role="trg">
+        <word pos="pp" translation="에" annotation="전치사:to:대상"> to </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="사회"> society </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> ; </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="낙관주의자는"> The optimist </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="발명한다"> invents </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="비행기를"> the aeroplane </word>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> , </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="비관주의자는"> the pessimist </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="낙하산을"> the parachute. </word>
+  </part>
+</sentence>
+
+
+<!-- 02. Do not wait for the right opportunity: create it. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="기다리지 말라"> Don't wait </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="적절한 기회를" annotation="전치사구:부사:대상">
+      <part role="trg">
+        <word pos="pp" translation="위해" annotation="전치사:for:목적"> for </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="적절한 기회"> the right oppportunity </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> ; </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="만들라"> create </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="그것을"> it. </word>
+  </part>
+</sentence>
+
+
+<!-- 03. We do not stop playing because we grow old; we grow old because we stop playing. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> We </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="멈추는 것이 아니다"> don't stop </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="노는 것" annotation="동명사"> playing </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="우리가 나이들어가기 때문에" annotation="부사절:이유">
+      <part role="trg">
+        <word pos="cj" translation="왜냐하면" annotation="접속사:부사절:because"> because </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="우리가"> we </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="(상태)가 되어간다"> grow </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="나이든"> old </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> ; </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> we </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="(상태)가 되어간다"> grow </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="나이든"> old </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="우리가 노는 것을 멈추기 때문에" annotation="부사절:이유">
+      <part role="trg">
+        <word pos="cj" translation="왜냐하면" annotation="접속사:부사절:because"> because </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="우리는"> we </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="멈추다"> stop </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="노는 것" annotation="동명사"> playing. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 04. People who say it cannot be done should not interrupt those who are doing it. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="사람들은"> People </word>
+    <chunk pos="aj" translation="그것이 될 수 없다고 말하는" annotation="형용사절">
+      <part role="trg">
+        <word pos="cj" translation="누구" annotation="접속사:형용사:who"> who </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="말하다"> say </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="그것이 될 수 없다고" annotation="명사절:접속사생략">
+          <part role="sbj">
+            <word pos="nn" translation="그것이"> it </word>
+          </part>
+          <part role="prd">
+            <word pos="be" translation="(상태)일 수 없다" annotation="be동사:상태"> cannot be </word>
+          </part>
+          <part role="cpm">
+            <word pos="aj" translation="된" annotation="과거분사:형용사"> done </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="방해해서는 안된다"> should not interrupt </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="그 사람들을" annotation="대명사:인칭"> those </word>
+    <chunk pos="aj" translation="그것을 하고있는" annotation="형용사절">
+      <part role="trg">
+        <word pos="cj" translation="누구" annotation="접속사:형용사:who"> who </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="aj" translation="그것을 하고있는" annotation="과거분사구:형용사">
+          <part role="trg">
+            <word pos="aj" translation="하고있는" annotation="과거분사:형용사"> doing </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="그것을"> it. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 05. Write your Sad times in Sand, Write your Good times in Stone. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="적어라"> write </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="너의 슬픈 시절을"> your sad times </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="모래에" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="에" annotation="전치사:in:대상"> in </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="모래"> sand </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> ; </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="새겨라"> Write </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="너의 좋은 시절을"> your good times </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="돌에" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="에" annotation="전치사:in:대상"> in </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="돌"> stone. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 06. The reasonable man adapts himself to the world; the unreasonable one persists to adapt the world to himself. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="이성적인 사람은"> The reasonable man </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="맞춘다"> adapts </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="그 자신을" annotation="대명사:재귀"> himself </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="세상에" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="에" annotation="전치사:to:대상"> to </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="세상"> the world </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> ; </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="비이성적인 사람은"> the unreasonable one </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="고집한다"> persists </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="세상이 그 자신에게 맞추기를" annotation="to부정사:명사:사실">
+      <part role="trg">
+        <word pos="pp" translation="것"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="맞추다"> adapt </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="세상을"> the world </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="그 자신에게" annotation="전치사구:부사:대상">
+          <part role="trg">
+            <word pos="pp" translation="에게" annotation="전치사:to:대상"> to </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="그 자신" annotation="대명사:재귀"> himself </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- Therefore all progress depends on the unreasonable man. -->
+<sentence>
+  <part role="lnk">
+    <word pos="cj" translation="그러므로"> Therefore </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="모든 발전은"> all progress </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="달려있다"> depends </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="비이성적인 사람에게" annotation="전치사구:부사:대상">
+      <part role="trg">
+        <word pos="pp" translation="에게" annotation="전치사:on:대상"> on </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="비이성적인 사람"> the unreasonable man. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 07. A cigarette is a pinch of tobacco rolled in paper with fire at one end and a fool at the other. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="담배는"> A cigarette </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="한 줌의" annotation="수량형용사"> a pinch of </word>
+    <word pos="nn" translation="담뱃잎"> tobacco </word>
+    <chunk pos="aj" translation="종이에 말려진" annotation="과거분사구:형용사">
+      <part role="trg">
+        <word pos="aj" translation="말려진" annotation="과거분사:형용사"> rolled </word>
+      </part>
+      <part role="adj">
+        <chunk pos="av" translation="종이에" annotation="전치사구:부사">
+          <part role="trg">
+            <word pos="pp" translation="에" annotation="전치사:in:대상"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="종이"> paper </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+    <chunk pos="aj" translation="한쪽 끝엔 불 그리고 다른 한쪽엔 바보가 달려있는" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="함께" annotation="전치사:with"> with </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="불"> fire </word>
+        <chunk pos="aj" translation="한쪽 끝의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="에" annotation="전치사:at"> at </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="한쪽 끝"> one end </word>
+          </part>
+        </chunk>
+        <word pos="cj" translation="그리고"> and </word>
+        <word pos="nn" translation="바보"> a fool </word>
+        <chunk pos="aj" translation="다른 한쪽의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="에" annotation="전치사:at"> at </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="다른 한쪽"> the other. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 08. Doing what needs to be done may not make you happy, but it will make you great. -->
+<sentence>
+  <part role="sbj">
+    <chunk pos="nn" translation="마무리될 필요가 있는 무엇인가를 하는 것은" annotation="동명사구">
+      <part role="trg">
+        <word pos="nn" translation="하는 것" annotation="동명사"> Doing </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="마무리될 필요가 있는 무엇" annotation="명사절:사실">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="필요하다"> needs </word>
+          </part>
+          <part role="obj">
+            <chunk pos="nn" translation="마무리되어지는 것" annotation="to부정사:명사:사실">
+              <part role="trg">
+                <word pos="pp" translation="것"> to </word>
+              </part>
+              <part role="prd">
+                <word pos="be" translation="(상태)이다" annotation="be동사:상태"> be </word>
+              </part>
+              <part role="cpm">
+                <word pos="aj" translation="되어진" annotation="과거분사:형용사"> done </word>
+              </part>
+            </chunk>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="아마 (상태)로 만들지 못할 것이다"> may not make </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="당신을"> you </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="행복한"> happy </word>
+  </part>
+  <part role="ptc">
+    <word pos="pt" translation=""> , </word>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="하지만"> but </word>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="(상태)로 만들 것이다"> will make </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="당신을"> you </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="위대한"> great. </word>
+  </part>
+</sentence>
+
+
+<!-- 09. The person I miss most is the one I could have been. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="사람은"> The person </word>
+    <chunk pos="aj" translation="내가 가장 그리워하는" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="나는"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="그리워한다"> miss </word>
+      </part>
+      <part role="adj">
+        <word pos="av" translation="가장"> most </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+  </part>
+  <part role="cpm">
+    <word pos="nn" translation="어떤 누군가"> the one </word>
+    <chunk pos="aj" translation="내가 될 수도 있었을" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)일 수도 있었다" annotation="시제:조동사완료"> could have been. </word>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 10. Take care to get what you like or you will be forced to like what you get. -->
+<sentence>
+  <part role="prd">
+    <word pos="vb" translation="신경 써야한다"> Take care </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="너가 좋아하는 무엇인가를 얻는 것에" annotation="to부정사:명사:대상">
+      <part role="trg">
+        <word pos="pp" translation="것"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="얻다"> get </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="너가 좋아하는 무엇을" annotation="명사절">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="너가"> you </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="좋아하다"> like </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+  <part role="lnk">
+    <word pos="cj" translation="그렇지 않으면"> or </word>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="너는"> you </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)가 될 것이다" annotation="be동사:상태"> will be </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="강요받은" annotation="과거분사:형용사"> forced </word>
+    <chunk pos="av" translation="너가 얻는 무엇인가를 좋아하도록" annotation="to부정사:부사:결과">
+      <part role="trg">
+        <word pos="pp" translation="것"> to </word>
+      </part>
+      <part role="prd">
+        <word pos="vb" translation="좋아하다"> like </word>
+      </part>
+      <part role="obj">
+        <chunk pos="nn" translation="너가 얻는 무엇" annotation="명사절">
+          <part role="trg">
+            <word pos="cj" translation="무엇" annotation="접속사:명사절:what"> what </word>
+          </part>
+          <part role="sbj">
+            <word pos="nn" translation="너가"> you </word>
+          </part>
+          <part role="prd">
+            <word pos="vb" translation="얻다"> get. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 11. The only time my education was interrupted was when I was in school. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="유일한 시간"> The only time </word>
+    <chunk pos="aj" translation="나의 배움이 방해받았던" annotation="형용사절:접속사생략">
+      <part role="sbj">
+        <word pos="nn" translation="나의 배움이"> my education </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)였다" annotation="be동사:상태"> was </word>
+      </part>
+      <part role="cpm">
+        <word pos="aj" translation="방해된" annotation="과거분사:형용사"> interrupted </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(무엇)이었다" annotation="be동사:설명"> was </word>
+  </part>
+  <part role="adj">
+    <chunk pos="nn" translation="내가 학교에 있었던 때" annotation="명사절:시간">
+      <part role="trg">
+        <word pos="cj" translation="때" annotation="접속사:명사절:when"> when </word>
+      </part>
+      <part role="sbj">
+        <word pos="nn" translation="내가"> I </word>
+      </part>
+      <part role="prd">
+        <word pos="be" translation="(상태)였던" annotation="be동사:상태"> was </word>
+      </part>
+      <part role="cpm">
+        <chunk pos="aj" translation="학교안에 있는" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="안에" annotation="전치사:in"> in </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="학교"> school. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 12. We are made wise not by the recollection of our past, but by the responsibility for our future. -->
+<sentence>
+  <part role="sbj">
+    <word pos="nn" translation="우리는"> We </word>
+  </part>
+  <part role="prd">
+    <word pos="be" translation="(상태)이다" annotation="be동사:상태"> are </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="(상태로)만들어진" annotation="과거분사:형용사"> made </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="현명한"> wise </word>
+  </part>
+  <part role="adj">
+    <chunk pos="av" translation="우리 과거의 기억에 의해서가 아니라" annotation="전치사구:부사:이유">
+      <part role="trg">
+        <word pos="pp" translation="의해서가 아니라" annotation="전치사:by"> not by</word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="기억"> the recollection </word>
+        <chunk pos="aj" translation="우리 과거의" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="의" annotation="전치사:of:소유"> of </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="우리 과거"> our past </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+    <word pos="cj" translation="반면에"> but </word>
+    <chunk pos="av" translation="우리 미래에 대한 책임에 의해서" annotation="전치사구:부사">
+      <part role="trg">
+        <word pos="pp" translation="의해서" annotation="전치사:by"> by </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="책임"> the responsibility </word>
+        <chunk pos="aj" translation="우리 미래에 대한" annotation="전치사구:형용사">
+          <part role="trg">
+            <word pos="pp" translation="대한" annotation="전치사:for:주제"> for </word>
+          </part>
+          <part role="obj">
+            <word pos="nn" translation="우리 미래"> our future. </word>
+          </part>
+        </chunk>
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!-- 13. Without art, the crudeness of reality would make the world unbearable. -->
+<sentence>
+  <part role="adj">
+    <chunk pos="av" translation="예술이 없다면" annotation="전치사구:부사:조건">
+      <part role="trg">
+        <word pos="pp" translation="없이" annotation="전치사:without"> Without </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="예술"> art, </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="sbj">
+    <word pos="nn" translation="조잡함이"> the crudeness </word>
+    <chunk pos="aj" translation="현실의" annotation="전치사구:형용사">
+      <part role="trg">
+        <word pos="pp" translation="의" annotation="전치사:of:묘사"> of </word>
+      </part>
+      <part role="obj">
+        <word pos="nn" translation="현실"> reality </word>
+      </part>
+    </chunk>
+  </part>
+  <part role="prd">
+    <word pos="vb" translation="(상태로)만들 것이다"> would make </word>
+  </part>
+  <part role="obj">
+    <word pos="nn" translation="세상을"> the world </word>
+  </part>
+  <part role="cpm">
+    <word pos="aj" translation="견디지 못하는"> unbearable. </word>
+  </part>
+</sentence>
