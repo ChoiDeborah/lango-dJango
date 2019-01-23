@@ -4,8 +4,8 @@ import os
 import django
 import sys
 
-sys.path.append("/path/to/lango-django/")
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lango-django.settings')
+sys.path.append("/Users/deborah/Desktop/lango-django")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 django.setup()
 
 #from lango-content.models import ModelName
@@ -13,8 +13,6 @@ from lango_content.models import Sentence
 from lango_content.models import Pattern
 from lango_content.models import PatternType
 from lango_content.models import PatternCategory
-
-
 
 
 if __name__ == "__main__":
@@ -59,20 +57,25 @@ def parse_String_To_XML(string, count):  # string -> XML
     root = ET.fromstring(string)  # string을 root에 넣고 파싱한다
     count += 1  # 문장 수 + 1
 
-    # BE-110 / BE-120 / VB-100 / 전치사-to / to부정사
+    # BE-110 / BE-120 / BE-140 / BE-210 / BE-220
+    # VB-100 / VE-120 / VB-140 / VB-310 / VB-320
+    # NJ-100 / NJ-400 /
+    # 전치사-to / V-100(to부정사)
+    # PO-100 / PO-300
     type = "BE-110"
     # type = "BE-120"
     # type = "VB-100"
     # type = "전치사-to"
     # type = "to부정사"
+
+
     #type = "명사+전치사-to"
 
     if searching(root, type):
         print(type + "\n\n" + string)
-        PatternType.objects.create(pattern_type='BE-130')
-        PatternCategory.objects.create("수식")
-        #a =
-        Sentence.objects.create(sentence='I am a boy', article='aaa', released_date='2018-12-12 12:00:00', xml=string, pattern=Pattern.objects.create(pattern_Type_id=1, Pattern_Category_id=1))
+        #PatternType.objects.create(pattern_type='BE-130')
+        #PatternCategory.objects.create("수식")
+        #Sentence.objects.create(sentence='I am a boy', article='aaa', released_date='2018-12-12 12:00:00', xml=string, pattern=Pattern.objects.create(pattern_Type_id=1, Pattern_Category_id=1))
 
     else:
         print("False\n")

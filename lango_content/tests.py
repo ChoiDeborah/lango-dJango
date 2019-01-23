@@ -76,7 +76,6 @@ def parse_String_To_XML(string, count):  # string -> XML
         print(type + "\n\n" + string)
         PatternType.objects.create(pattern_type='BE-130')
         #PatternCategory.objects.create("수식")
-        #a =
         #Sentence.objects.create(sentence='I am a boy', article='aaa', released_date='2018-12-12 12:00:00', xml=string, pattern=Pattern.objects.create(pattern_Type_id=1, Pattern_Category_id=1))
 
     else:
