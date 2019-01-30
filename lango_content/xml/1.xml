@@ -1,12 +1,131 @@
-<!-- 전치사-to -->
+
+
+<!-- 명사절 J -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "nn">
+        <part role= "trg">
+            <word pos= "cj"> </word>
+        </part>
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+
+<!--be동사구 + 명사구(A) BE-110 -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <word pos ="nn"> </word>
+  </part>
+</sentence>
+
+<!--be동사구 + 형용사구(B) BE-210 -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <word pos ="aj"> </word>
+  </part>
+</sentence>
+
+<!-- 과거분사구 P -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "aj">
+        <part role= "trg">
+            <word pos= "vbn"> </word>
+        </part>
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+<!-- 현재분사구 N -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "aj">
+        <part role= "trg">
+            <word pos= "vbg"> </word>
+        </part>
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+<!-- 전치사구 R -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "aj">
+        <part role= "trg">
+            <word pos= "pp"> </word>
+        </part>
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+<!-- 동명사구 M -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "nn">
+        <part role= "trg">
+            <word pos= "vbg"> </word>
+        </part>
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+<!-- 명사절 T -->
+<sentence>
+  <part role = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos= "nn">
+        <part role= "prd">
+        </part>
+    </chunk>
+  </part>
+</sentence>
+
+
 
 <sentence>
   <part role = "">
-    <chunk pos = "">
+    <word pos = "be"> </word>
+  </part>
+  <part role = "">
+    <chunk pos = "nn">
       <part role = "trg">
         <word pos = ""> to </word>
       </part>
-      <part role = "obj">
+      <part role = "prd">
       </part>
     </chunk>
   </part>
@@ -29,6 +148,36 @@
     </chunk>
   </part>
 </sentence>
+
+<sentence>
+  <part role = "">
+    <word pos = "vb"> </word>
+  </part>
+  <part role = "">
+    <chunk pos = "nn">
+      <part role = "trg">
+        <word pos = ""> to </word>
+      </part>
+      <part role = "prd">
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+<!-- 전치사-to -->
+<sentence>
+  <part role = "">
+    <chunk pos = "">
+      <part role = "trg">
+        <word pos = ""> to </word>
+      </part>
+      <part role = "obj">
+      </part>
+    </chunk>
+  </part>
+</sentence>
+
+
 
 
 

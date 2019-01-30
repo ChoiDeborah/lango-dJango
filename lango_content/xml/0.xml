@@ -1,0 +1,274 @@
+<!-- The book to know that Korea is a great country NJ-100 + VB-140 -->
+<sentence>
+	<part role = "">
+		<word pos = "nn"> The book </word>
+		<chunk pos = "aj">
+			<part role="trg">
+				<word pos =""> to </word>
+			</part>
+			<part role="prd">
+				<word pos ="vb"> know </word>
+			</part>
+			<part role="cpm">
+				<chunk pos="nn">
+					<part role="trg">
+						<word pos ="cj"> that </word>
+					</part>
+					<part role="sbj">
+						<word pos ="nn"> Korea </word>
+					</part>
+					<part role="prd">
+						<word pos ="vb"> is </word>
+					</part>
+					<part role="obj">
+						<word pos ="nn"> a great country. </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- The book to be happy. NJ-100 + BE-210 -->
+<sentence>
+	<part role="">
+		<word pos="nn"> the book </word>
+		<chunk pos="aj">
+			<part role="trg">
+				<word pos=""> to </word>
+			</part>
+			<part role="prd">
+				<word pos="be"> be </word>
+			</part>
+			<part role="cpm">
+				<word pos="aj"> happy </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- The book to understand history NJ-100 + VB-110 -->
+
+<sentence>
+	<part role = "">
+		<word pos="nn"> The book </word>
+		<chunk pos = "aj">
+			<part role="trg">
+				<word pos = ""> to </word>
+			</part>
+			<part role="prd">
+				<word pos = "vb"> understand </word>
+			</part>
+			<part role="obj">
+				<word pos = "nn"> history </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- I know that you are in danger. VB-140 + BE-220 -->
+<sentence>
+	<part role = "sbj">
+		<word pos="nn"> I </word>
+	</part>
+	<part role = "prd">
+		<word pos="vb"> know </word>
+	</part>
+	<part role = "obj">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos="cj"> that </word>
+			</part>
+			<part role = "sbj">
+				<word pos="nn"> you </word>
+			</part>
+			<part role = "prd">
+				<word pos="be"> are </word>
+			</part>
+			<part role = "cpm">
+				<chunk pos = "aj">
+					<part role="trg">
+						<word pos="pp"> in </word>
+					</part>
+					<part role="obj">
+						<word pos="nn"> danger </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- I know that you know that I did it. VB-140 + VB +140 -->
+
+<sentence>
+	<part role = "sbj">
+		<word pos = "nn"> I </word>
+	</part>
+	<part role = "prd">
+		<word pos = "vb"> know </word>
+	</part>
+	<part role = "obj">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos = "cj"> that </word>
+			</part>
+			<part role = "sbj">
+				<word pos = "nn"> you </word>
+			</part>
+			<part role = "prd">
+				<word pos = "vb"> know </word>
+			</part>
+			<part role = "obj">
+				<chunk pos = "nn">
+					<part role="trg">
+						<word pos = "cj"> that </word>
+					</part>
+					<part role="sbj">
+						<word pos = "nn"> I </word>
+					</part>
+					<part role="prd">
+						<word pos = "vb"> did </word>
+					</part>
+					<part role="obj">
+						<word pos = "nn"> it </word>
+					</part>
+				</chunk>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- I want to have a new car  VB-120 + VB-110 -->
+<sentence>
+	<part role="sbj">
+		<word pos = "nn"> I </word>
+	</part>
+	<part role="prd">
+		<word pos = "be"> want </word>
+	</part>
+	<part role="cpm">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos = "TO"> to </word>
+			</part>
+			<part role = "prd">
+				<word pos = "vb"> have </word>
+			</part>
+			<part role = "obj">
+				<word pos = "nn"> a new car </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+<!-- I want to be happy. VB-120 + BE-210 -->
+<sentence>
+	<part role = "sbj">
+		<word pos = "nn"> I </word>
+	</part>
+	<part role = "prd">
+		<word pos = "vb"> want </word>
+	</part>
+	<part role = "cpm">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos = "TO"> TO </word>
+			</part>
+			<part role = "prd">
+				<word pos = "be"> be </word>
+			</part>
+			<part role = "cpm">
+				<word pos = "cj"> happy </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- My goal is to have a new car BE120 + VB110 -->
+<sentence>
+	<part role = "sbj">
+		<word pos = "nn"> My goal </word>
+	</part>
+	<part role = "prd">
+		<word pos = "be"> is </word>
+	</part>
+	<part role = "cpm">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos = "To"> to </word>
+			</part>
+			<part role = "prd">
+				<word pos = "vb"> have </word>
+			</part>
+			<part role = "obj">
+				<word pos = "nn"> a new car </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+
+
+<!-- My goal is to be happy. BE-120 + BE-210 -->
+<sentence>
+	<part role = "sbj">
+		<word pos = "nn"> My goal </word>
+	</part>
+	<part role = "prd">
+		<word pos = "be"> is </word>
+	</part>
+	<part role = "cpm">
+		<chunk pos = "nn">
+			<part role = "trg">
+				<word pos = "TO"> to </word>
+			</part>
+			<part role = "prd">
+				<word pos = "be"> be </word>
+			</part>
+			<part role = "cpm">
+				<word pos = "cj"> happy </word>
+			</part>
+		</chunk>
+	</part>
+</sentence>
+
+<!-- BE-140 -->
+
+<sentence>
+	<part role="sbj">
+		<word pos="nn" translation="차이점은"> The difference </word>
+		<chunk pos="aj" translation="멍청함과 천재성 사이의" annotation="전치사구:형용사">
+				<part role="trg">
+					<word pos="pp" translation="사이의" annotation="전치사:between"> between </word>
+				</part>
+				<part role="obj">
+					<word pos="nn" translation="멍청함"> stupidity </word>
+					<word pos="cj" translation="과"> and </word>
+					<word pos="nn" translation="천재성"> genius </word>
+				</part>
+		</chunk>
+	</part>
+	<part role="prd">
+		<word pos="be" translation="(무엇)이다" annotation="be동사:설명"> is </word>
+	</part>
+	<part role="cpm">
+		<chunk pos="nn" translation="천재성은 그 한계를 가지고 있다는 것" annotation="명사절:사실">
+				<part role="trg">
+					<word pos="cj" translation="것" annotation="접속사:명사절:that"> that </word>
+				</part>
+				<part role="sbj">
+					<word pos="nn" translation="천재성은"> genius </word>
+				</part>
+				<part role="prd">
+					<word pos="vb" translation="가지다"> has </word>
+				</part>
+				<part role="obj">
+					<word pos="nn" translation="그 한계를"> its limits. </word>
+				</part>
+		</chunk>
+	</part>
+</sentence>
+

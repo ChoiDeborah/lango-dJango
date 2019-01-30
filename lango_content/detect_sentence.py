@@ -32,9 +32,9 @@ def Load_XML(pathName):
         if not line and not isline:  # 만약 라인이 NULL 값이면서 이전 라인 존재 시 브래이크
             break
 
-        if isLine(line):  # 라인이 줄바꿈, 주석, 공백에 해당하지 않으면
+        if isLine(line):    # 라인이 줄바꿈, 주석, 공백에 해당하지 않으면
             string += line  # string에 라인을 더해주고
-            isline = True  # 라인상태 변수는 참
+            isline = True   # 라인상태 변수는 참
 
         else:  # 줄바꿈, 주석, 공백에 해당하면
             if isline:  # 만약 라인이냐가 트루일 때 만
@@ -62,20 +62,13 @@ def parse_String_To_XML(string, count):  # string -> XML
     # NJ-100 / NJ-400 /
     # 전치사-to / V-100(to부정사)
     # PO-100 / PO-300
-    type = "BE-110"
-    # type = "BE-120"
-    # type = "VB-100"
-    # type = "전치사-to"
-    # type = "to부정사"
 
+    type = "BE-140"
 
     #type = "명사+전치사-to"
 
     if searching(root, type):
-        print(type + "\n\n" + string)
-        #PatternType.objects.create(pattern_type='BE-130')
-        #PatternCategory.objects.create("수식")
-        #Sentence.objects.create(sentence='I am a boy', article='aaa', released_date='2018-12-12 12:00:00', xml=string, pattern=Pattern.objects.create(pattern_Type_id=1, Pattern_Category_id=1))
+        print(type + "\n\n" + string + "\n")
 
     else:
         print("False\n")
@@ -123,6 +116,27 @@ def searching(node, type):
                 result = part_search(part, "cpm", "", 1, 1, type, "")  #  chunk가 존재하는 경우
                 if result:
                     return True
+
+    if type == "BE-140":
+        for part in node.findall("part"):
+            if not result:
+                result = part_search(part, "prd", "be", 1, 0, type, "")
+            else:
+                result = False
+                result = part_search(part, "cpm", "", 1, 1, type, "")
+                if result:
+                    return True
+
+
+    #if type == "BE-210":
+    #    for part in node.findall("part"):
+    #        if not result:
+    #            result = part_search(part, "prd", "be", 1, 0, type, "")
+    #        else:
+    #            result = False
+    #           result = part_search()
+
+
 
     if type == "VB-100":
         for part in node.findall("part"):
@@ -224,6 +238,10 @@ def part_search(part, role_keyword, pos_keyword, depth, isChunk, type, text):
                         role_keyword = "trg"
                         pos_keyword = ""
                         text = " to "
+                    if (type == "BE-140"):
+                        role_keyword = "trg"
+                        pos_keyword = "cj"
+                        text = ""
                     if (type == "VB-100"):
                         role_keyword = "trg"
                         pos_keyword = "cj"
@@ -250,19 +268,19 @@ def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
     if type == "BE-120":
         for part in chunk.findall("part"):
             if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type,
-                                     " to ")  # word.text가 " to " 일 때 참
+                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)  # word.text가 " to " 일 때 참
 
             else:
                 result = False
-                result = part_search(part, "!obj", "", depth + 1, 0, type, "")  # role이 obj가 아닌 것 만
+                # result = part_search(part, "!obj", "", depth + 1, 0, type, "")  # role이 obj가 아닌 것 만
+                result = part_search(part, "prd", "", depth + 1, 0, type, "")
                 if result:
                     return True
 
     elif type == "전치사-to":
         for part in chunk.findall("part"):
             if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, " to ")
+                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)
             else:
                 result = False
                 result = part_search(part, "obj", "", depth + 1, 2, type, "")
@@ -272,7 +290,7 @@ def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
     elif type == "to부정사":
         for part in chunk.findall("part"):
             if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, " to ")
+                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)
             else:
                 result = False
                 result = part_search(part, "!obj", "", depth + 1, 2, type, "")
@@ -295,6 +313,6 @@ sum = 0
 
 for i in range(1, 13):  # 1 - 12 까지의 XML 불러오기
     count = 0
-    sum += Load_XML("/Users/deborah/Desktop/Sentence_Scoring/xml/" + str(i) + ".xml")  # Load_XML에 file Path를 인자로 전달 호출
+    sum += Load_XML("/Users/deborah/Desktop/lango-django/lango_content/xml/" + str(i) + ".xml")  # Load_XML에 file Path를 인자로 전달 호출
 
 print(sum)
