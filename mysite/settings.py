@@ -121,3 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+NLTK_DATA_PATH = ["/Users/deborah/Desktop/lango-django/myvenv/nltk_data"]

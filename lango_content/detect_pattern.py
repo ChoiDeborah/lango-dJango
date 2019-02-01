@@ -57,30 +57,19 @@ def parse_String_To_XML(string, count):  # string -> XML
     root = ET.fromstring(string)  # string을 root에 넣고 파싱한다
     count += 1  # 문장 수 + 1
 
-    # BE-110 / BE-120 / BE-140 / BE-210 / BE-220
-    # VB-100 / VE-120 / VB-140 / VB-310 / VB-320
-    # NJ-100 / NJ-400 /
-    # 전치사-to / V-100(to부정사)
-    # PO-100 / PO-300
+    result = searching(root, type)
 
-    type = "BE-140"
+    if(result != "NO PATTERN"):
+        print(string + "\n\n")
 
-    #type = "명사+전치사-to"
-
-    if searching(root, type):
-        print(type + "\n\n" + string + "\n")
-
-    else:
-        print("False\n")
+    #else:
+    #    print(string+"\n")
 
     return count
 
 
-
 # ----------------------------------------
 
-
-# ----------------------------------------
 
 def isLine(line):  # 줄바꿈 주석 공백 인지 체크 하는 함수
     if not line == '\n' and not line[:4] == '<!--' and not line == '':
@@ -88,230 +77,302 @@ def isLine(line):  # 줄바꿈 주석 공백 인지 체크 하는 함수
     else:
         return False
 
-    # ----------------------------------------
+# ----------------------------------------
 
 
 def searching(node, type):
-    result = False
 
-    if type == "BE-110":
-        for part in node.findall("part"):
+    result = "NO PATTERN"
+    word_pos = ""
+    pattern_1 = ""
+    count = 0
+    isNext = True
 
-            if not result:  # result 가 False 일 때
-                result = part_search(part, "prd", "be", 1, 0, type, "")
+    for part in node.findall("part"):
+        if isNext:
+            count = 0
+            pattern_1 = part_search(part, type, 1, word_pos)
+            # 반환되는 pattern이  be, sv, vb 일 경우 isWord = False
 
-            else:  # result가 True 가 되면
-                result = False
-                result = part_search(part, "cpm", "nn", 1, 0, type, "")
-                if result:
-                    return True
+            if pattern_1 == "nn":        #반환되는 pattern이 nn 일 경우
+                word_pos = "exist"
+                pattern_2 = part_search(part, type, 1, word_pos)
+                if pattern_2 == "nn":       # 명사구
+                    result = "NN-100"
+                elif pattern_2 == "J":      # 명사절
+                    result = "NN-200"
+                elif pattern_2 == "H":      # to부정사구
+                    result = "NJ-100"
+                elif pattern_2 == "N":      # 현재분사구
+                    result = "NJ-200"
+                elif pattern_2 == "P":      # 과거분사구
+                    result = "NJ-300"
+                elif pattern_2 == "R":      # 전치사구
+                    result = "NJ-400"
+                elif pattern_2 == "K":      # 형용사절
+                    result = "NJ-500"
+                if result != "NO PATTERN": print(result)
 
-    if type == "BE-120":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "prd", "be", 1, 0, type, "")
+        if not isNext:
+            if pattern_1 == "be":  # be동사구
+                pattern_2 = part_search(part, type, 1, word_pos)
+                if pattern_2 == "G":        # to부정사구
+                    result = "BE-120"
+                elif pattern_2 == "nn":     # 명사구
+                    result = "BE-110"
+                elif pattern_2 == "aj":     # 형용사구
+                    result = "BE-210"
+                elif pattern_2 == "M":      # 동명사구
+                    result = "BE-130"
+                elif pattern_2 == "J":      # 명사절
+                    result = "BE-140"
+                elif pattern_2 == "T":      # 원형부정사
+                    result = "BE-150"
+                elif pattern_2 == "R":      # 전치사구
+                    result = "BE-220"
+                elif pattern_2 == "N":      # 현재분사구
+                    result = "BE-230"
+                elif pattern_2 == "P":      # 과거분사구
+                    result = "BE-240"
+                if result != "NO PATTERN": print(result)
 
-            else:
-                result = False
-                result = part_search(part, "cpm", "", 1, 1, type, "")  #  chunk가 존재하는 경우
-                if result:
-                    return True
+            # 상태동사
+            elif pattern_1 == "sv":
+                pattern_2 = part_search(part, type, 1, word_pos)
+                if pattern_2 == "G":  # to부정사구
+                    result = "SV-120"
+                elif pattern_2 == "nn":  # 명사구
+                    result = "SV-110"
+                elif pattern_2 == "aj":  # 형용사구
+                    result = "SV-210"
+                elif pattern_2 == "M":  # 동명사구
+                    result = "SV-130"
+                elif pattern_2 == "J":  # 명사절
+                    result = "SV-140"
+                elif pattern_2 == "T":  # 원형부정사
+                    result = "SV-150"
+                elif pattern_2 == "R":  # 전치사구
+                    result = "SV-220"
+                elif pattern_2 == "N":  # 현재분사구
+                    result = "SV-230"
+                elif pattern_2 == "P":  # 과거분사구
+                    result = "SV-240"
+                if result != "NO PATTERN": print(result)
 
-    if type == "BE-140":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "prd", "be", 1, 0, type, "")
-            else:
-                result = False
-                result = part_search(part, "cpm", "", 1, 1, type, "")
-                if result:
-                    return True
+            # 일반동사구
+            elif pattern_1 == "vb":
+                pattern_2 = part_search(part, type, 1, word_pos)
+                if pattern_2 == "G":        # to부정사구
+                    result = "VB-120"
+                elif pattern_2 == "nn":     # 명사구
+                    result = "VB-110"
+                elif pattern_2 == "M":      # 동명사구
+                    result = "VB-130"
+                elif pattern_2 == "J":      # 명사절
+                    result = "VB-140"
+                elif pattern_2 == "T":      #원형부정사
+                    result = "VB-150"
+                if result != "NO PATTERN":print(result)
 
 
-    #if type == "BE-210":
-    #    for part in node.findall("part"):
-    #        if not result:
-    #            result = part_search(part, "prd", "be", 1, 0, type, "")
-    #        else:
-    #            result = False
-    #           result = part_search()
+        if pattern_1 == "be" or pattern_1 == "sv" or pattern_1 == "vb":
+            isNext = False
 
+        count += 1
 
-
-    if type == "VB-100":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "prd", "vb", 1, 0, type, "")
-            else:
-                result = False
-                result = part_search(part, "obj", "nn", 1, 1, type, "")
-                if result:
-                    return True
-
-    if type == "전치사-to":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "", "", 1, 1, type, "")
-                if (result):
-                    return True
-
-    if type == "to부정사":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "", "", 1, 1, type, "")
-                if (result):
-                    return True
-
-    if type == "명사+전치사-to":
-        for part in node.findall("part"):
-            if not result:
-                result = part_search(part, "", "nn", 1, 3, type, "")  # part안에 word, chunk 올 때
-                if (result):
-                    return True
-
-    # if type == "명사+to부정사":
-    #    for part in node.findall("part"):
-    #        if not result:
-    #            result = part_search(part, "" )
-
-    return False
+    return result
 
 
 # ----------------------------------------
 
-def part_search(part, role_keyword, pos_keyword, depth, isChunk, type, text):
+def part_search(part, type, depth, pos):
+
     result = False
 
-    role = part.get("role")  # if 파트의 롤과 매개변수로 받은 롤을 비교
-    chunkText = False
+    # word pos 가 존재 할 때 (ex be동사구, 일반동사구, 상태동사구)
+    if pos == "":
+        for word in part.findall("word"):
+            pos = word.get("pos")
+            return pos
 
-    #### 명사 + 전치사 to
-    # if isChunk == 3:                            # word, chunk 올 때 isChunk == 3
-    #    for word in part.findall("word"):   # word 를 순회한다
-    #        wordPos = word.get("pos")           # word의 pos를 가져온다
-    #        if wordPos == "nn":                 # 만약 pos 가 "nn"이면
-    #            for chunk in part.findall("chunk"):
-    #
-    #            break
+    # word pos 가 존재 하지 않을 때 (chunk일 때)
+    for chunk in part.findall("chunk"):
+        pos = chunk_search(chunk, type, depth)
 
-    if isChunk == 2:  # word 나 chunk나 상관 없을 때
-        if (role_keyword[:1] == "!"):  # role_keyword 만 제외하고
-            roleTemp = role_keyword[1:]  # !제외한 나머지 문자열 슬라이싱
-            if roleTemp == "obj":
-                if role != roleTemp:  # roleTemp 제외한 나머지 일 경우
+        if pos != "NOT FOUND":
+            return pos
+
+    return pos
+
+
+# ----------------------------------------
+
+def chunk_search(chunk, type, depth):
+
+    pattern = "NOT FOUND"
+
+    chunk_pos = chunk.get("pos")
+
+    result = False
+
+    searching(chunk, "type")
+
+    if chunk_pos == 'nn':
+        # to부정사구 (G)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "", " to ")
+            elif result:
+                result = False
+                if part_unit_check(part, "prd", "", ""):
+                    return "G"
+        # 동명사구 (M)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "vbg", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "prd", "", ""):
+                    return "M"
+
+        # 명사절 (J)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "cj", " ")
+            elif result:
+                #result = False
+                if part_unit_check(part, "", "", ""):
+                    return "J"
+
+        # 원형부정사 (T)
+        for part in chunk.findall("part"):
+            if part_unit_check(part, "prd", "", ""):
+                return "T"
+
+    if chunk_pos == 'aj':
+        # 전치사구 (R)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "pp", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "obj", "", ""):
+                    return "R"
+
+        # 현재분사구 (N)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "vbg", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "N"
+
+        # 과거분사구 (P)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "vbn", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "P"
+        # 형용사절 (K)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "cj", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "K"
+
+        # to부정사구 (H)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "", " to ")
+            elif result:
+                result = False
+                if part_unit_check(part, "prd", "", ""):
+                    return "H"
+
+    # 부사
+    if chunk_pos == 'av':
+
+        # to부정사구 (I)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "", " to ")
+            elif result:
+                result = False
+                if part_unit_check(part, "prd", "", ""):
+                    return "I"
+
+        # 부사절(L)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "cj", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "L"
+
+        # 현재분사구 (O)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "vbg", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "O"
+
+        # 과거분사구 (Q)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "vbn", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "", "", ""):
+                    return "Q"
+
+            # 전치사구 (S)
+        for part in chunk.findall("part"):
+            if not result:
+                result = part_unit_check(part, "trg", "pp", " ")
+            elif result:
+                result = False
+                if part_unit_check(part, "obj", "", ""):
+                    return "S"
+
+    return pattern
+# ----------------------------------------
+
+
+def part_unit_check(part, role, pos, text):
+
+    result = False
+    wordText = False
+    part_role = part.get("role")
+
+    if role == part_role:
+        for word in part.findall("word"):
+            wordText = True
+            word_pos = word.get("pos")
+            if pos == '':
+                return True
+            if word_pos == pos:
+                word_text = word.text
+                if word_text == text or text == " ":
                     return True
-        elif role == role_keyword:
+            # part안에 word가 존재 하지 않을 때
+        if not wordText:
             return True
 
-    if isChunk == 0:  # word 비교 시
-        for chunk in part.findall("chunk"):  # chunk가 존재 하면
-            return False  # False 반환
-        if (role == role_keyword or role_keyword == ""):
-            for word in part.findall("word"):
-                pos = word.get("pos")
-                if pos == pos_keyword or pos_keyword == "":  # 같으면 word의 pos 비교
-                    if text == "":  # word 의 text 가 ""이거나 같을 때
-                        return True
-                    elif word.text == text:
-                        return True
-
-        elif (role_keyword[:1] == "!"):  # role_keyword 만 제외하고
-            roleTemp = role_keyword[1:]  # !제외한 나머지 문자열 슬라이싱
-            if roleTemp == "obj":
-                if role != roleTemp:  # roleTemp 제외한 나머지 일 경우
-                    for word in part.findall("word"):
-                        pos = word.get("pos")
-                        if pos == pos_keyword or pos_keyword == "":  # 같으면 word의 pos 비교
-                            if text == "":  # word 의 text 가 ""이거나 같을 때
-                                return True
-                            elif word.text == text:
-                                return True
-
-    if isChunk == 1:  # Chunk 비교 시
-        for word in part.findall("word"):  # word 가 존재하면
-            return False  # False 반환
-        if (role == role_keyword or role_keyword == ""):
-            for chunk in part.findall("chunk"):
-                pos = chunk.get("pos")
-                if pos == pos_keyword or pos_keyword == "":
-                    if (type == "BE-120"):
-                        role_keyword = "trg"
-                        pos_keyword = ""
-                        text = " to "
-                    if (type == "BE-140"):
-                        role_keyword = "trg"
-                        pos_keyword = "cj"
-                        text = ""
-                    if (type == "VB-100"):
-                        role_keyword = "trg"
-                        pos_keyword = "cj"
-                    if (type == "전치사-to"):
-                        role_keyword = "trg"
-                        pos_keyword = ""
-                        text = " to "
-                    if (type == "to부정사"):
-                        role_keyword = "trg"
-                        pos_keyword = ""
-                        text = " to "
-                    result = chunk_search(chunk, depth, role_keyword, pos_keyword, type, text)
-                    if result:
-                        return True
-
     return result
-
-
-# ----------------------------------------
-
-def chunk_search(chunk, depth, role_keyword, pos_keyword, type, text):
-    result = False
-
-    if type == "BE-120":
-        for part in chunk.findall("part"):
-            if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)  # word.text가 " to " 일 때 참
-
-            else:
-                result = False
-                # result = part_search(part, "!obj", "", depth + 1, 0, type, "")  # role이 obj가 아닌 것 만
-                result = part_search(part, "prd", "", depth + 1, 0, type, "")
-                if result:
-                    return True
-
-    elif type == "전치사-to":
-        for part in chunk.findall("part"):
-            if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)
-            else:
-                result = False
-                result = part_search(part, "obj", "", depth + 1, 2, type, "")
-                if result:
-                    return True
-
-    elif type == "to부정사":
-        for part in chunk.findall("part"):
-            if not result:
-                result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)
-            else:
-                result = False
-                result = part_search(part, "!obj", "", depth + 1, 2, type, "")
-                if result:
-                    return True
-
-
-    else:
-        for part in chunk.findall("part"):
-            result = part_search(part, role_keyword, pos_keyword, depth + 1, 0, type, text)
-            if result:
-                return True
-
-    return result
-
-
 # ----------------------------------------
 
 sum = 0
 
-for i in range(1, 13):  # 1 - 12 까지의 XML 불러오기
+#for i in range(1, 13):  # 1 - 12 까지의 XML 불러오기
+for i in range(0, 13):
     count = 0
     sum += Load_XML("/Users/deborah/Desktop/lango-django/lango_content/xml/" + str(i) + ".xml")  # Load_XML에 file Path를 인자로 전달 호출
 
